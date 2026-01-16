@@ -12,7 +12,7 @@ api
 /dist/
 
 # Dependencies
-# The vendor directory should not be committed. It can be generated from go.mod.
+
 /api/vendor/
 
 # OS-specific files
