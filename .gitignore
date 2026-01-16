@@ -1,0 +1,26 @@
+# Go binaries
+*.exe
+*.exe~
+api
+/api/api
+
+# Test binary
+*.test
+
+# Build output
+/build/
+/dist/
+
+# Dependencies
+# The vendor directory should not be committed. It can be generated from go.mod.
+/api/vendor/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
